@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="display">
+            <p id="display"></p>
+        </div>
+        <div class="buttons-pane">
+            <div class="row">
+                <button class="btn spc-btn" onclick="AC()">AC</button>
+                <button class="btn spc-btn" onclick="">+/-</button>
+                <button class="btn spc-btn" onclick="perc()">%</button>
+                <button class="btn ops-btn" onclick="div()"><b>÷</b></button>
+            </div>
+            <div class="row">
+                <button class="btn num" onclick="seven()">7</button>
+                <button class="btn num" onclick="eight()">8</button>
+                <button class="btn num" onclick="nine()">9</button>
+                <button class="btn ops-btn" onclick="mul()"><strong>x</strong></button>
+            </div>
+            <div class="row">
+                <button class="btn num" onclick="four()">4</button>
+                <button class="btn num" onclick="five()">5</button>
+                <button class="btn num" onclick="six()">6</button>
+                <button class="btn ops-btn" onclick="sub()">-</button>
+            </div>
+            <div class="row">
+                <button class="btn num" onclick="one()">1</button>
+                <button class="btn num" onclick="two()">2</button>
+                <button class="btn num" onclick="three()">3</button>
+                <button class="btn ops-btn" onclick="add()">+</button>
+            </div>
+            <div class="row">
+                <div>
+                    <button class="btn num half" onclick="zero()">0</button>
+                </div>
+                <div class="row">
+                    <button class="btn num " onclick="dot()">.</button>
+                    <button class="btn ops-btn padd" onclick="equal()">=</button>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+
+</html>

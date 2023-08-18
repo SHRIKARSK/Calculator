@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+}
+
+@font-face {
+    font-family: technology;
+    src: url(technology/Technology-Bold.ttf);
+}
+
+.main {
+    font-family: technology;
+    background-color: black;
+    width: 300px;
+    margin: 70px auto;
+    border-radius: 10px;
+    padding:10px 14px;
+    box-shadow: 10px 10px 100px;
+}
+
+.display {
+    height: 150px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: end;
+    color: whitesmoke;
+    font-size: 40px;
+}
+
+.buttons-pane {
+    margin-top: 20px;
+    height: 380px;
+    background-color: black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-evenly {
+    display: flex;
+    justify-content: space-evenly;
+}
+.btn {
+    
+    border: none;
+    padding: 16px;
+    width: 58px;
+    border-radius: 50%;
+    font-size: x-large;
+    color: white;
+    font-weight: bolder;
+}
+
+.num {
+    background-color: rgb(83, 83, 83);
+}
+
+.ops-btn {
+    background-color: rgb(247, 153, 3);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.spc-btn {
+    color: rgb(0, 0, 0);
+    background-color: rgb(194, 192, 192);
+}
+
+.half {
+    width: 132px;
+    border-radius: 50px;
+}
+
+.padd {
+    margin:0 0 0 14px;
+}
