@@ -49,6 +49,12 @@ function unset() {
   ops = false;
 }
 
+function change() {
+    onScreen = display.innerText;
+    onScreen = onScreen * -1;
+    display.innerText = onScreen;
+}
+
 function add() {
     set("add");
     console.log(addOp,subOp,mulOp,divOp)
